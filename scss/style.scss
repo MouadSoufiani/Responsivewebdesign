@@ -1,0 +1,61 @@
+.small, .medium, .large{
+  float: left;
+}
+@media only screen and (max-width: 300px) {
+  body {
+    background-color: red;
+  }
+  h1{
+    font-size: 16px;
+  }
+  p{
+    font-size: 14px;
+  }
+
+}
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .small{
+    width: 66%;
+    float: left;
+  }
+  .medium{
+    width: 33%;
+    float: left;
+
+  }
+  .large{
+    width: 100%;
+    float: left;
+  }
+
+
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 26px;
+  }
+  .small {
+    width: 33%;
+  }
+  .medium{
+    width: 33%;
+  }
+  .large{
+    width: 33%;
+  }
+}
